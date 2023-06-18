@@ -57,6 +57,7 @@ Users should be able to:
 
 - [React](https://react.dev/)
 - [TailwindCss](https://tailwindcss.com/)
+- [Framer Motion](https://framer.com/motion)
 
 ### What I learned
 

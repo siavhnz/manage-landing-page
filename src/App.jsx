@@ -1,5 +1,7 @@
+import ManagePage from "./pages/Manage";
+
 function App() {
-  return <>Manage home page</>;
+  return <ManagePage />;
 }
 
 export default App;
