@@ -3,6 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        "1.5lg": "69.375rem", //1110px
+      },
+      maxWidth: {
+        "1.5lg": "69.375rem",
+      },
       fontFamily: {
         "Be-Vietnam-Pro": ["'Be Vietnam Pro'", "sans-serif"],
       },

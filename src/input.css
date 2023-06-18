@@ -4,27 +4,84 @@
 
 
 @layer components {
-    .body {
-        min-height: 100vh;
+    .bg-pattern-top {
+        height:30rem;
         background: url(/src/assets/images/bg-tablet-pattern.svg);
         background-repeat: no-repeat;
         background-position: right -8rem top -7rem;
         background-size: 28rem;
     }
 
-    @media (min-width:1024px) {
-        .body {
-            background-position: right -10rem top -10rem;
+    @media (min-width:33.75em) {/*540px*/
+        .bg-pattern-top {
+            height: 34rem;
+            background-size: 41rem;
+        }
+    }
+
+    @media (min-width:64em) {/*1024px*/
+        .bg-pattern-top {
+            height: 44rem;
+            background-position: right -17rem top -10rem;
+            background-size: 53rem;
+        }
+        
+    }
+
+    @media (min-width:80em) {/*1280px*/
+        .bg-pattern-top {
+            background-position: right -15rem top -11rem;
             background-size: 51rem;
         }
         
     }
 
-    @media (min-width:1550px) {
-        .body {
-            background-position: right -10rem top -15rem;
-            background-size: 60rem;
+    @media (min-width:90em) {/*1440px*/
+        .bg-pattern-top {
+            background-position: right -8rem top -9rem;
+            background-size: 50rem;
         }
         
     }
+    @media (min-width:96em) {/*1536px*/
+        .bg-pattern-top {
+            background-position: right -9rem top -13rem;
+            background-size: 54rem;
+        }
+        
+    }
+    @media (min-width:100em) {/*1600px*/
+        .bg-pattern-top {
+            background-size: 57rem;
+        }
+    }
+
+    @media (min-width:107.5em) {/*1720px*/
+        .bg-pattern-top {
+            background-position: right -9rem top -17rem;
+            background-size: 61rem;
+        }
+        
+    } 
+    @media (min-width:120em) {/*1920px*/
+        .bg-pattern-top {
+            background-position: right -15rem top -26rem;
+            background-size: 70rem;
+            
+        }
+    }
+    @media (min-width:133.75rem) { /*2140px*/
+        .bg-pattern-top {
+            background-position: right -2rem top -28rem;    
+        }
+    }
+
+    .bg-pattern-middle-mobile {
+        height: 24rem;
+        background: url(/src/assets/images/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: right -11rem top 2rem;
+        background-size: 20rem;
+    }
+
 }

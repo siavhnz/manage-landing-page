@@ -1,9 +1,12 @@
+import Intro from "../components/Intro";
 import Layout from "../components/Layout/Layout";
 
 const ManagePage = () => {
-    return <Layout>
-        
+  return (
+    <Layout>
+      <Intro />
     </Layout>
-}
+  );
+};
 
 export default ManagePage;
