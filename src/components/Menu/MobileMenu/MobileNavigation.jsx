@@ -6,7 +6,7 @@ const MobileNavigation = ({ items, onClose }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       exit={{ opacity: 0 }}
-      className="fixed right-0 left-0 bottom-0 top-0 bg-black bg-opacity-10 px-6 pt-10 flex flex-col gap-y-10 lg:hidden"
+      className="fixed right-0 left-0 bottom-0 top-0 bg-black bg-opacity-10 px-6 pt-10 flex flex-col gap-y-10 overflow-hidden lg:hidden"
     >
       <button aria-label="close menu" onClick={onClose} className="self-end">
         <Close focusable={false} aria-hidden={true} />
