@@ -58,6 +58,7 @@ Users should be able to:
 - [React](https://react.dev/)
 - [TailwindCss](https://tailwindcss.com/)
 - [Framer Motion](https://framer.com/motion)
+- [Swiper](https://swiperjs.com/)
 
 ### What I learned
 
@@ -65,7 +66,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Nivo chart](https://nivo.rocks/)
+- [React Carousel](https://alvarotrigo.com/blog/react-carousels/)
 
 ## Author
 

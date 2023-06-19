@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        xs: "30em", // 480px
         "1.5lg": "69.375rem", //1110px
       },
       maxWidth: {
