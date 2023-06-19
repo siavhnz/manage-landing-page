@@ -3,7 +3,7 @@ import Link from "./ui/Link";
 
 const Intro = () => {
   return (
-    <div className="pt-10 px-4 lg:grid lg:grid-cols-2  max-w-screen-1.5lg mr-auto ml-auto lg:pt-28 xl:px-0">
+    <div className="pt-10 pl-6 pr-4 lg:grid lg:grid-cols-2  max-w-screen-1.5lg mr-auto ml-auto lg:pt-28 xl:px-0">
       <img
         src={IntroImg}
         className="mr-auto ml-auto lg:-mr-1"
