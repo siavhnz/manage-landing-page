@@ -11,8 +11,6 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 - [My process](#my-process)
   - [Work time](#work-time)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -36,9 +34,9 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/age-calculator-app-UfFNvVZ2lX)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/mange-landing-page-29QGHOwfrD)
 
-- Live Site: [cloudflare](https://age-calculator-app-bmm.pages.dev)
+- Live Site: [cloudflare](https://manage-landing-page-bjk.pages.dev/)
 
 ## My process
 
@@ -47,11 +45,12 @@ Users should be able to:
   - 1.Identify a component
   - 2.Create component(Html, css, functionalilty)
   - 3.Go to step 1
+  - Header, Menu(Menu, DesktopMenu, MobileMenu), Logo, Layout, Intro, Benefits, Testimonials, Simplify, Footer(Footer, NewsletterForm, FooterMenu), ManagePage
 - Prepare and Publish(Write README.md, Push to github, Make it live on Cloudflare, Publish to frontendmentor, ...)
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/6491ab7b61a97a03a0244f1e)
 
 ### Built with
 
@@ -59,10 +58,6 @@ Users should be able to:
 - [TailwindCss](https://tailwindcss.com/)
 - [Framer Motion](https://framer.com/motion)
 - [Swiper](https://swiperjs.com/)
-
-### What I learned
-
-### Continued development
 
 ### Useful resources
 

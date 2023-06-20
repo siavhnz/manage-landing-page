@@ -10,7 +10,7 @@ import { ReactComponent as Pinterest } from "../../assets/images/icon-pinterest.
 const Footer = () => {
   return (
     <footer className="bg-very-dark-blue">
-      <div className="px-6 xl:px-0 pt-[3.25rem] xl:pt-[3.75rem] pb-14 md:grid md:grid-cols-2 xl:max-w-screen-1.5lg mr-auto ml-auto xl:grid-cols-[17.75rem,auto,auto] xl:grid-rows-1">
+      <div className="px-6 xl:px-0 pt-[3.25rem] xl:pt-[3.75rem] pb-14 md:grid md:grid-cols-2 xl:max-w-screen-1.5lg mr-auto ml-auto xl:grid-cols-[17.75rem,auto,auto] xl:grid-rows-[minmax(8.25rem,auto)]">
         <div className="max-w-xs xl:max-w-none mr-auto ml-auto md:mt-32 xl:mt-0 xl:row-start-1 xl:col-start-3 xl:mr-0">
           <NewsletterForm />
         </div>
