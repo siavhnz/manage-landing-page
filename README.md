@@ -68,6 +68,10 @@ Users should be able to:
 
 - [React Carousel](https://alvarotrigo.com/blog/react-carousels/)
 
+- [Swiperjs Examples](https://swiperjs.com/demos)
+
+- [Accessible Form Validation for Screen Readers](https://stackoverflow.com/a/58899124)
+
 ## Author
 
 - Frontend Mentor - [@siavhnz](https://www.frontendmentor.io/profile/siavhnz)

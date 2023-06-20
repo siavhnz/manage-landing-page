@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Layout = ({ children }) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <div className="-z-50 bg-pattern-middle-desktop absolute top-[70rem] left-0 w-full hidden lg:block" />
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   );
 };
