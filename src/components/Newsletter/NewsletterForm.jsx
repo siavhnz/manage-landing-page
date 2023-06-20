@@ -33,10 +33,10 @@ const NewsletterForm = () => {
       <div className="flex-grow">
         <input
           type="email"
-          aria-required={true}
           ref={emailInput}
+          aria-label="enter your email address"
+          aria-required={true}
           aria-invalid={error}
-          aria-describedby="error"
           placeholder="Updates in your inbox..."
           className={`outline-none rounded-3xl h-11 w-full placeholder:text-dark-grayish-blue bg-white text-dark-blue border border-transparent px-6 text-sm ${inputErrorClasses}`}
         />
@@ -54,7 +54,6 @@ const NewsletterForm = () => {
               <p
                 className="text-bright-red text-sm pt-2 pl-3"
                 aria-live="assertive"
-                id="error"
               >
                 Please insert a valid email
               </p>
